@@ -1,0 +1,214 @@
+/* basics */
+
+body {
+  margin: 50px auto;
+  max-width: 800px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#menu ul {
+  border-top: 1px solid rgba(0,0,0,0.1);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  margin-bottom: 80px;
+}
+
+#menu ul li {
+  background: none;
+  display: inline-block;
+  width: 100px;
+}
+
+#menu ul li a {
+  background: none;
+  color: ;
+  display: inline-block;
+  text-decoration: none;
+  width: 100px;
+}
+
+.section-title {
+  color: #666;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+hr {
+  background: none;
+  border: 0;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+  height: 0;
+  margin: 30px auto;
+  max-width: 960px;
+}
+
+/* typography */
+
+h1 {
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
+h3 {
+  font-size: 30px;
+}
+
+h4 {
+  font-size: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+h6 {
+  font-size: 16px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Rokkitt', sans-serif;
+}
+
+blockquote,
+p {
+  line-height: 150%;
+}
+
+blockquote {
+  border-left: 4px solid silver;
+  /* This is a shorthand for:
+  border-left-width: 4px;
+  border-left-style: solid;
+  border-left-color: silver; */
+  margin: 0;
+  padding: 30px;
+}
+
+a {
+  color: #0099FF;
+}
+
+/* lists */
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+ul li {
+  background-color: rgb(245,245,245);
+  border-radius: 3px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+ol {
+  list-style: lower-alpha;
+  margin: 50px;
+}
+
+dt {
+  color: gray;
+  font-style: italic;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+dd {
+  margin: 0 0 16px 0;
+}
+
+/* buttons */
+
+.button {
+  background: #f3f3f3;
+  border: solid 1px rgba(0,0,0,0.2);
+  border-radius: 3px;
+  color: rgba(0,0,0,0.7);
+  cursor: pointer;
+  display: inline-block;
+  font-size: 16px;
+  height: 100%;
+  line-height: 16px;
+  margin: 0 0 15px;
+  padding: 8px 18px;
+  text-align: center;
+}
+
+.blue {
+  background: #0D7AFF;
+  color: rgba(255,255,255,0.8);
+}
+
+.orange {
+  background: #faa51a;
+  color: rgba(255,255,255,0.8);
+}
+
+.red {
+  background: #ed1c24;
+  color: rgba(255,255,255,0.8);
+}
+
+.green {
+  background: #7db72f;
+  color: rgba(255,255,255,0.8);
+}
+
+/* forms */
+
+label {
+  display: block;
+  margin-top: 16px;
+}
+
+input,
+textarea {
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  padding: 5px;
+}
+
+select {
+  border: 1px solid #ccc;
+  display: block;
+  font-size: 16px;
+  height: 36px;
+  margin-top: 16px;
+  width: 200px;
+}
+
+input[type=submit] { margin-top: 16px; }
+
+/* Tables */
+
+table {
+  border: 1px solid rgba(0,0,0,0.1);
+  border-spacing: 0;
+}
+
+caption {
+  color: #666;
+  padding: 15px;
+  text-transform: uppercase;
+}
+
+tr:nth-child(even) {
+  background: rgba(0,0,0,0.1);
+}
+
+th,
+td {
+  padding: 15px;
+}

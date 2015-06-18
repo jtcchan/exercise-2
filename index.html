@@ -1,0 +1,184 @@
+<!doctype html>
+<html>
+  <head>
+    <title>UI Library</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Rokkitt|Open+Sans' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+
+    <nav id="menu">
+      <ul>
+        <li><a href="#typography">Typography</a></li>
+        <li><a href="#lists">Lists</a></li>
+        <li><a href="#buttons">Buttons</a></li>
+        <li><a href="#forms">Forms</a></li>
+        <li><a href="#tables">Tables</a></li>
+      </ul>
+    </nav>
+
+    <section>
+      <a name="typography"></a>
+
+      <h3 class="section-title">Typography</h3>
+
+      <h1>Heading 1</h1>
+      <h2>Heading 2</h2>
+      <h3>Heading 3</h3>
+      <h4>Heading 4</h4>
+      <h5>Heading 5</h5>
+      <h6>Heading 6</h6>
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+
+      <blockquote>
+        Never gonna give you up, never gonna let you down &mdash; Rick Astley
+      </blockquote>
+
+      <p>
+        <strong>&lt;strong&gt; strong</strong><br/>
+        <em>&lt;em&gt; emphasis</em><br/>
+        <a href="https://www.google.ca/">&lt;a&gt; anchors</a><br/>
+        <u>&lt;u&gt; underline</u>
+      </p>
+
+    </section>
+
+    <hr />
+
+    <section>
+      <a name="lists"></a>
+
+      <h3 class="section-title">Lists</h3>
+
+      <ul>
+        <li>Home</li>
+        <li>About</li>
+        <li>Products</li>
+        <li>FAQ</li>
+        <li>Contact Us</li>
+      </ul>
+
+      <ol>
+        <li>In a large bowl, mix flour, sugar, baking powder and salt. Make a well in the center, and pour in milk, egg and oil. Mix until smooth.</li>
+        <li>Heat a lightly oiled griddle or frying pan over medium high heat. Pour or scoop the batter onto the griddle, using approximately 1/4 cup for each pancake. Brown on both sides</li>
+        <li>Serve and enjoy hot!</li>
+      </ol>
+
+      <dl>
+        <dt>What is Instagram?</dt>
+        <dd>Instagram is a fun and quirky way to share your life with friends through a series of pictures.</dd>
+        <dt>How much is your app?</dt>
+        <dd>$0.00 - available for free in the Apple App Store and Google Play store.</dd>
+        <dt>Where does the name come from?</dt>
+        <dd>When we were kids we loved how old cameras marketed themselves as "instant". We also felt that the snapshots people took were kind of like telegrams - so we figured why not combine the two?</dd>
+      </dl>
+
+    </section>
+
+    <hr />
+
+    <section>
+      <a name="buttons"></a>
+
+      <h3 class="section-title">Buttons</h3>
+
+      <a class="button">.button</a>
+      <a class="blue button">.blue.button</a>
+      <a class="orange button">.orange.button</a>
+      <a class="red button">.red.button</a>
+      <a class="green button">.green.button</a>
+
+      <div>
+        <input class="button" type="button" value="<input>" />
+        <button class="button">&lt;button&gt;</button>
+        <span class="button">&lt;span&gt;</span>
+        <a class="button">&lt;a&gt;</a>
+      </div>
+
+    </section>
+
+    <hr />
+
+    <section>
+      <a name="forms"></a>
+
+      <h3 class="section-title">Forms</h3>
+
+      <form>
+        <label for="firstname">First name:</label>
+        <input type="text" id="firstname">
+        <label for="lastname">Last name:</label>
+        <input type="text" id="lastname">
+        <label for="comment">Comment:</label>
+        <textarea id="comment" cols="30" rows="10"></textarea>
+
+        <select id="rating">
+          <option selected>5 - Excellent</option>
+          <option>4 - Good</option>
+          <option>3 - Okay</option>
+          <option>2 - Poor</option>
+          <option>1 - Terrible</option>
+        </select>
+
+        <label>Would you like to join our mailling list?</label>
+        <label for="subscribe">
+          <input type="checkbox" id="subscribe">
+          Yes! Please send me lots of emails about your offers.
+        </label>
+
+        <label>How did you hear about us?</label>
+        <label for="tv">
+          <input type="radio" id="tv" />TV
+        </label>
+        <label for="radio">
+          <input type="radio" id="radio" />Radio
+        </label>
+        <label for="magazine">
+          <input type="radio" id="magazine" />Magazine
+        </label>
+
+        <input type="submit" value="Submit feedback!" class="button">
+      </form>
+
+    </section>
+
+    <hr />
+
+    <section>
+      <a name="tables"></a>
+
+      <h3 class="section-title">Tables</h3>
+
+      <table>
+        <caption>NHL Standings - Pacific</caption>
+        <tr>
+          <th>Team</th>
+          <th>W</th>
+          <th>L</th>
+          <th>OT</th>
+        </tr>
+        <tr>
+          <td>Ducks</td>
+          <td>50</td>
+          <td>23</td>
+          <td>7</td>
+        </tr>
+        <tr>
+          <td>Canucks</td>
+          <td>45</td>
+          <td>29</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>Flames</td>
+          <td>42</td>
+          <td>29</td>
+          <td>7</td>
+        </tr>
+      </table>
+
+    </section>
+
+  </body>
+</html>
